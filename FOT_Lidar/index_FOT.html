@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        /* Styling for the Navbar */
+        #navbar {
+            position: fixed;       /* Keep the navbar fixed at the top */
+            top: 0;                /* Set the navbar at the top of the page */
+            left: 0;               /* Align it to the left edge */
+            width: 100%;           /* Ensure it spans the entire width of the page */
+            height: 50px;
+            background-color: #333;
+            overflow: hidden;
+            z-index: 1000;         /* Ensure the navbar is on top of other content */
+            padding: 10px 0;       /* Adjust the padding to make it look nice */
+            display: flex;
+            align-items: center;          /* Vertically center items */
+            justify-content: space-between; /* Left & right alignment */
+        }
+
+        #navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 17px;
+            background-color: #333;
+        }
+
+        #navbar a:hover {
+            background-color: #333;
+            color: black;
+        }
+
+        /* Logo styling */
+        #logo {
+            height: 50px; /* Set the height of the logo */
+            width: 100px; /* Keep the aspect ratio of the logo */
+            margin-right: 10px;        /* Push the logo to the far right */
+            background: transparent; /* Ensure the background is transparent */
+        }
+
+        /* Styling for the table */
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 30px auto;  /* Center the table on the page */
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        td {
+            background-color: #fafafa;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div id="navbar">
+        <a href="../index_Main_Page.html" style="font-weight: bold;">Main Page</a>
+        <img id="logo" src="../logo.png"; >
+    </div>
+
+    <!-- Content -->
+    <div id="content">
+        <br><br><br>
+        <h1>FOT Report</h1>
+        <hr style="border: 1px solid #2c3e50; margin-top: 20px; margin-bottom: 20px;"> <!-- Simple line with custom style -->
+        
+        <p>Click on the link to visualize the FOT report in PDF version:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th><a href="https://drive.google.com/file/d/1t-t3cv29eEBZ7RAdwiiOqP8ENUSrtfVf/view?usp=sharing">FOT Report (PDF)</a></th>
+                </tr>
+            </thead>
+        </table>
+
+        <!-- <p>Click on the link to visualize the comments about the FOT in PDF version:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th><a href="https://drive.google.com/file/d/1v3i9oUCpgaIbHuRLjAnjEgB6gdinnkHQ/view?usp=sharing">Open Road FOT Comments (PDF)</a></th>
+                </tr>
+            </thead>
+        </table> -->
+
+        <!-- <p>Click on the links in the table to visualize the executive results:</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th><a href="executive_report_FOT.html">Executive Report</a></th>
+                    <th><a href="short_executive_report_FOT.html">Short Executive Report (x < 30 m)</a></th>
+                </tr>
+            </thead>
+            <tbody>
+                <td>Report containing an executive summary from all tests</td>
+                <td>Report containing an executive summary from all tests considering distances between 0 to 30 m</td>
+
+            </tbody>
+        </table> -->
+
+        <p>Click on the links in the table to visualize the FOT Test (Kinematics + Image Plane) results. The tests are separated by 1 hour intervals.</p>
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        <a href="2026_03_25_14_21_000.html">2026-03-25 14:21:00</a><br>
+                        <!-- <a href="2025-01-28-15-03-56-00-00.html">2025-01-28 14:03:56</a><br>
+                        <a href="2025-01-28-15-04-56-00-00.html">2025-01-28 14:04:56</a><br>
+                        <a href="2025-01-28-15-05-56-00-00.html">2025-01-28 14:05:56</a><br>
+                        <a href="2025-01-28-15-06-56-00-00.html">2025-01-28 14:06:56</a><br>                        
+                        <a href="2025-01-28-15-02-56-00-00.html">2025-01-28 14:02:56</a><br>
+                        <a href="2025-01-28-15-07-56-00-00.html">2025-01-28 14:07:56</a><br>
+                        <a href="2025-01-28-15-08-56-00-00.html">2025-01-28 14:08:56</a><br> -->
+                        <!-- <a href="2025-01-28-15-09-56-00-00.html">2025-01-28 14:09:56</a><br>
+                        <a href="2025-01-28-15-10-56-00-00.html">2025-01-28 14:10:56</a><br>
+                        <a href="2025-01-28-15-11-56-00-00.html">2025-01-28 14:11:56</a><br>
+                        <a href="2025-01-28-15-12-56-00-00.html">2025-01-28 14:12:56</a><br>
+                        <a href="2025-01-28-15-14-56-00-00.html">2025-01-28 14:14:56</a><br>
+                        <a href="2025-01-28-15-15-56-00-00.html">2025-01-28 14:15:56</a><br>
+                        <a href="2025-01-28-15-16-56-00-00.html">2025-01-28 14:16:56</a><br>
+                        <a href="2025-01-28-15-17-56-00-00.html">2025-01-28 14:17:56</a><br>
+                        <a href="2025-01-28-15-18-56-00-00.html">2025-01-28 14:18:56</a><br>
+                        <a href="2025-01-28-15-19-56-00-00.html">2025-01-28 14:19:56</a><br>
+                        <a href="2025-01-28-15-21-43-00-00.html">2025-01-28 14:21:43</a><br>
+                        <a href="2025-01-28-15-22-43-00-00.html">2025-01-28 14:22:43</a><br>
+                        <a href="2025-01-28-15-24-43-00-00.html">2025-01-28 14:24:43</a><br>
+                        <a href="2025-01-28-15-25-43-00-00.html">2025-01-28 14:25:43</a><br>
+                        <a href="2025-01-28-15-26-43-00-00.html">2025-01-28 14:26:43</a><br>
+                        <a href="2025-01-28-15-27-43-00-00.html">2025-01-28 14:27:43</a><br>
+                        <a href="2025-01-28-15-28-43-00-00.html">2025-01-28 14:28:43</a><br>
+                        <a href="2025-01-28-15-29-43-00-00.html">2025-01-28 14:29:43</a><br>
+                        <a href="2025-01-28-15-30-43-00-00.html">2025-01-28 14:30:43</a><br> -->
+                    </td>
+                </tr>
+            </thead>
+        </table>
+    </div>
+
+</body>
+</html>
